@@ -6,8 +6,6 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsBrightnessAltHigh, BsFillPersonLinesFill } from "react-icons/bs";
-import logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -91,29 +89,29 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div className="hidden sm:flex fixed flex-col top-[35%] sm:right-0 lg:left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000000]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center lg:ml-[-100px] lg:hover:ml-[-10px] sm:mr-[-100px] sm:hover:mr-[-10px] duration-300 bg-[#000000]">
             <a
-              className="flex justify-between items-center w-full font-bold font-mono text-[#EAEAEA]"
+              className="flex sm:flex-row-reverse lg:flex-row justify-between items-center w-full font-bold font-mono text-[#EAEAEA]"
               href="https://www.linkedin.com/in/harshit-verma-0a009421b/"
               target='_blank'
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center lg:ml-[-100px] lg:hover:ml-[-10px] sm:mr-[-100px] sm:hover:mr-[-10px] duration-300 bg-green-600">
             <a
-              className="flex justify-between items-center w-full font-bold font-mono text-[#EAEAEA] filter invert"
+              className="flex sm:flex-row-reverse lg:flex-row justify-between items-center w-full font-bold font-mono text-[#EAEAEA] filter invert"
               href="https://github.com/harshit2101"
               target='_blank'
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000000]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center lg:ml-[-100px] lg:hover:ml-[-10px] sm:mr-[-100px] sm:hover:mr-[-10px] duration-300 bg-[#000000]">
             <a
-              className="flex justify-between items-center w-full font-bold font-mono text-[#EAEAEA]"
+              className="flex sm:flex-row-reverse lg:flex-row justify-between items-center w-full font-bold font-mono text-[#EAEAEA]"
               href="mailto:harshitverma.2101.hv@gmail.com"
             >
               Email <HiOutlineMail size={30} />

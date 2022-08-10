@@ -21,15 +21,15 @@ const Work = () => {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Netflix Clone
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a target='_blank' href="https://netflixreactclone21.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a target='_blank' href="https://github.com/harshit2101/netflix-clone">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -45,15 +45,15 @@ const Work = () => {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                FooDmooD
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a target='_blank' href="http://foodmood21.netlify.app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a target='_blank' href="https://github.com/harshit2101/fooDmooD">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -68,15 +68,15 @@ const Work = () => {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                WeatherApp
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a target='_blank' href="https://projectweatherapp21.netlify.app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a target='_blank' href="https://github.com/harshit2101/weather-app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
