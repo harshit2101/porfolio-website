@@ -22,7 +22,8 @@ const About = () => {
             <div>
               <p>I am passionate about building web applications that can improve
               the lives of those around me. What would you do if you had
-              a Frontend expert available at your fingertips?</p>  
+              a MERN Stack expert available at your fingertips?</p>
+             <p className="text-[#FF2E63] text-lg">Let's collaborate or talk about mountains!</p>  
             </div>
           
         </div>

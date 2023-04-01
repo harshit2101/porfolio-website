@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 
@@ -30,22 +25,22 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="p-6 hover:text-[#FF2E63]">
-        <Link to="about" smooth={true} duration={500}>
+          <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="p-6 hover:text-[#FF2E63]">
-        <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className="p-6 hover:text-[#FF2E63]">
-        <Link to="work" smooth={true} duration={500}>
+          <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
         <li className="p-6 hover:text-[#FF2E63]">
-        <Link to="contact" smooth={true} duration={500}>
+          <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -63,27 +58,32 @@ const Navbar = () => {
         }
       >
         <li className="py-5 text-4xl hover:text-[#EAEAEA]">
-        <Link onClick={clickHandler} to="home" smooth={true} duration={500}>
+          <Link onClick={clickHandler} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-5 text-4xl hover:text-[#EAEAEA]">
-        <Link onClick={clickHandler} to="about" smooth={true} duration={500}>
+          <Link onClick={clickHandler} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="py-5 text-4xl hover:text-[#EAEAEA]">
-        <Link onClick={clickHandler} to="skills" smooth={true} duration={500}>
+          <Link onClick={clickHandler} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className="py-5 text-4xl hover:text-[#EAEAEA]">
-        <Link onClick={clickHandler} to="work" smooth={true} duration={500}>
+          <Link onClick={clickHandler} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
         <li className="py-5 text-4xl hover:text-[#EAEAEA]">
-        <Link onClick={clickHandler} to="contact" smooth={true} duration={500}>
+          <Link
+            onClick={clickHandler}
+            to="contact"
+            smooth={true}
+            duration={500}
+          >
             Contact
           </Link>
         </li>
@@ -95,7 +95,8 @@ const Navbar = () => {
             <a
               className="flex sm:flex-row-reverse lg:flex-row justify-between items-center w-full font-bold font-mono text-[#EAEAEA]"
               href="https://www.linkedin.com/in/harshit-verma-0a009421b/"
-              target='_blank'
+              target="_blank"
+              rel="noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -104,7 +105,8 @@ const Navbar = () => {
             <a
               className="flex sm:flex-row-reverse lg:flex-row justify-between items-center w-full font-bold font-mono text-[#EAEAEA] filter invert"
               href="https://github.com/harshit2101"
-              target='_blank'
+              target="_blank"
+              rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -117,14 +119,16 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0a4851]'>
+          <li className="w-[160px] h-[60px] flex justify-between items-center lg:ml-[-100px] lg:hover:ml-[-10px] sm:mr-[-100px] sm:hover:mr-[-10px] duration-300 bg-green-600">
             <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              className="flex sm:flex-row-reverse lg:flex-row justify-between items-center w-full font-bold font-mono text-[#EAEAEA] filter invert"
+              href="https://twitter.com/Hv2101"
+              target="_blank"
+              rel="noreferrer"
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              Twitter <FaTwitter size={30} />
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </div>

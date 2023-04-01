@@ -24,36 +24,20 @@ const Work = () => {
                 Netflix Clone
               </span>
               <div className="pt-8 text-center">
-                <a target='_blank' href="https://netflixreactclone21.netlify.app/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://netflixreactclone21.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a target='_blank' href="https://github.com/harshit2101/netflix-clone">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-
-          <div
-            style={{ backgroundImage: `url(${WorkImg3})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                FooDmooD
-              </span>
-              <div className="pt-8 text-center">
-                <a target='_blank' href="http://foodmood21.netlify.app">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a target='_blank' href="https://github.com/harshit2101/fooDmooD">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/harshit2101/netflix-clone"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -71,12 +55,20 @@ const Work = () => {
                 WeatherApp
               </span>
               <div className="pt-8 text-center">
-                <a target='_blank' href="https://projectweatherapp21.netlify.app">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://projectweatherapp21.netlify.app"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a target='_blank' href="https://github.com/harshit2101/weather-app">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/harshit2101/weather-app"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -85,6 +77,33 @@ const Work = () => {
             </div>
           </div>
 
+          
+          <div
+            style={{ backgroundImage: `url(${WorkImg3})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Travels
+              </span>
+              <div className="pt-8 text-center">
+                <a target="_blank" rel="noreferrer" href="https://travelsapp21.netlify.app">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/harshit2101/travels-app"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>

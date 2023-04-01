@@ -26,7 +26,7 @@ const Contact = () => {
           className="my-4 p-2 bg-[#bbe2f6]"
           type="email"
           placeholder="Email"
-          name="emal"
+          name="email"
         />
         <textarea
           className=" p-2 bg-[#bbe2f6]"

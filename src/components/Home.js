@@ -11,9 +11,9 @@ const Home = () => {
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#FF2E63] text-[18px]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-6xl font-poppins font-bold text-[#EAEAEA]">Harshit Verma</h1>
-        <h2 className="text-3xl sm:text-4xl font-medium text-[#7D8E95]">I'm a Frontend Developer</h2>
+        <h2 className="text-3xl sm:text-4xl font-medium text-[#7D8E95]">I'm a MERN Stack Developer</h2>
         <p className="py-4 max-w-[600px] text-white">
-          A Frontend Developer exploring different tools and frameworks.
+          A MERN Stack Developer exploring different tools and frameworks.
           Currently, focused on learning and building responsive web
           applications.
         </p>

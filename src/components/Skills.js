@@ -8,6 +8,10 @@ import NextJS from '../assets/nextJS.png';
 import Tailwind from '../assets/tailwind.png';
 import GitHub from '../assets/github.png';
 import Git from '../assets/git.png';
+import Linux from '../assets/linux.png';
+import Nodejs from '../assets/nodejs.png';
+import Expressjs from '../assets/expressjs.png';
+import Mongodb from '../assets/mongodb.png';
 
 
 
@@ -53,6 +57,22 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={GitHub} alt="GitHub icon" />
                     <p className='my-4'>GitHub</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-28 mx-auto' src={Nodejs} alt="GitHub icon" />
+                    <p className='my-2'>NodeJS</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-48 mx-auto mt-6 invert' src={Expressjs} alt="GitHub icon" />
+                    <p className='mt-10'>ExpressJS</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-48 mx-auto mt-6' src={Mongodb} alt="GitHub icon" />
+                    <p className='mt-10'>MongoDB</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Linux} alt="GitHub icon" />
+                    <p className='mt-6'>Linux</p>
                 </div>
                 
             </div>
